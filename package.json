@@ -1,0 +1,26 @@
+{
+  "name": "crypto-example",
+  "version": "1.0.0",
+  "description": "Repo to show difference between createCipher and createCipheriv",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape 'tests/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjgrainger/crypto-example.git"
+  },
+  "keywords": [
+    "crypto",
+    "node"
+  ],
+  "author": "Peter Grainger <peter@grainger.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterjgrainger/crypto-example/issues"
+  },
+  "homepage": "https://github.com/peterjgrainger/crypto-example#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
